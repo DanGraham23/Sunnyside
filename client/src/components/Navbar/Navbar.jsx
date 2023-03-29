@@ -1,6 +1,6 @@
 import './style.css';
 import {useState} from 'react';
-
+import logo from '../../assets/images/logo.svg'
 
 export default function Navbar(){
     const [curSelected, setCurSelected] = useState("");
@@ -10,7 +10,7 @@ export default function Navbar(){
     }
     return (
         <div className='navbar-container'>
-            <h1 className='nav-header'>sunnyside</h1>
+            <img src={logo} alt="sunnyside" className='nav-header'/>
             <ul className='nav-items'>
                 <li className={`nav-item  ${curSelected === "navAbout" ? "nav-selected" : ""}`} 
                 id="navAbout" 

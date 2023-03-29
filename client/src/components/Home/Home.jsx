@@ -1,5 +1,7 @@
 import './style.css';
-import arrow from '../../assets/images/icon-arrow-down.svg'
+import arrow from '../../assets/images/icon-arrow-down.svg';
+
+
 export default function Home(){
     return (
         <div className="home-container">
