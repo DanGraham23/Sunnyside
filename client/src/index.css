@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p{
+  font-size: 18px;
+}
+
+:root{
+  --primary-soft-red: hsl(7, 99%, 70%);
+  --primary-yellow: hsl(51, 100%, 49%);
+  --primary-dark-cyan: hsl(167, 40%, 24%);
+  --primary-dark-blue: hsl(198, 62%, 26%);
+  --primary-dark-mod-cyan: hsl(168, 34%, 41%);
+
+  --neutral-very-dark-blue: hsl(212, 27%, 19%);
+  --neutral-very-dark-gray-blue: hsl(213, 9%, 39%);
+  --neutral-dark-gray-blue: hsl(232, 10%, 55%);
+  --neutral-gray-blue: hsl(210, 4%, 67%);
+  --neutral-white: hsl(0, 0%, 100%);
+
+  /* 
+  Notes for development
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif; 
+  background-color: var(--bg-color);
+  - Mobile: 375px
+ - Desktop: 1440px
+  */
+}
+
+.basic-img-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 500px;
+}
+
+.milk{
+  background-image: url('./assets/images/desktop/image-gallery-milkbottles.jpg');
+  background-size: cover;
+}
+
+.orange{
+  background-image: url('./assets/images/desktop/image-gallery-orange.jpg');
+  background-size: cover;
+}
+
+.cone{
+  background-image: url('./assets/images/desktop/image-gallery-cone.jpg');
+  background-size: cover;
+}
+
+.sugar{
+  background-image: url('./assets/images/desktop/image-gallery-sugarcubes.jpg');
+  background-size: cover;
 }

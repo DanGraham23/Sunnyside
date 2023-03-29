@@ -1,0 +1,103 @@
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.about-text-container{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow';
+    background-color: var(--neutral-white);
+}
+
+.about-descr-container{
+    width: 62%;
+    height: 50%;
+}
+
+.about-descr-heading{
+    margin: 0;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 42px;
+    color: var(--neutral-very-dark-blue);
+}
+
+.about-descr{
+    color: var(--neutral-very-dark-gray-blue);
+}
+
+.about-descr-a1{
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-weight: 900;
+}
+
+.about-descr-a1:hover{
+    border-bottom: 5px solid  var(--primary-yellow);
+}
+
+.about-descr-a2{
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-weight: 900;
+}
+
+.about-descr-a2:hover{
+    border-bottom: 5px solid  var(--primary-soft-red);
+}
+
+.image-and-descr-container{
+    width: 55%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+}
+
+.graphic-design-header{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color: var(--primary-dark-cyan);
+}
+
+.graphic-design-descr{
+    font-family: 'Barlow';
+    color: var(--primary-dark-cyan);
+}
+
+.photography-header{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color: var(--primary-dark-blue);
+}
+
+.photography-descr{
+    font-family: 'Barlow';
+    color: var(--primary-dark-blue);
+}
+
+.img-container{
+    height: 600px;
+}
+
+.yellow-egg-img{
+    background-image: url(../../assets/images/desktop/image-transform.jpg); 
+}
+
+.pink-cup-img{
+    background-image: url(../../assets/images/desktop/image-stand-out.jpg);
+}
+
+.cherry-img{
+    background-image: url(../../assets/images/desktop/image-graphic-design.jpg);
+}
+
+.orange-img{
+    background-image: url(../../assets/images/desktop/image-photography.jpg);
+}
