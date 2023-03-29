@@ -1,10 +1,6 @@
 import './style.css';
-import facebook from '../../assets/images/icon-facebook.svg';
-import instagram from '../../assets/images/icon-instagram.svg';
-import twitter from '../../assets/images/icon-twitter.svg';
-import pinterest from '../../assets/images/icon-pinterest.svg';
-import logo from '../../assets/images/logo.svg';
-
+import {AiFillFacebook, AiOutlineInstagram, AiOutlineTwitter} from 'react-icons/ai';
+import {FaPinterest} from 'react-icons/fa';
 
 export default function Footer(){
     return (
@@ -16,10 +12,10 @@ export default function Footer(){
                 <li className='footer-nav-item'>Projects</li>
             </ul>
             <ul className='footer-socials'>
-                <li className='footer-social'><img src={facebook} alt="facebook" /></li>
-                <li className='footer-social'><img src={instagram} alt="instagram" /></li>
-                <li className='footer-social'><img src={twitter} alt="twitter" /></li>
-                <li className='footer-social'><img src={pinterest} alt="pinterest" /></li>
+                <AiFillFacebook  className='footer-social'/>
+                <AiOutlineInstagram  className='footer-social'/>
+                <AiOutlineTwitter  className='footer-social'/>
+                <FaPinterest  className='footer-social'/>
             </ul>
         </div>
     )

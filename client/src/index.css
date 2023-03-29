@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aqua;
+  background-color: var(--neutral-white);
 }
 
 code {
@@ -31,15 +31,6 @@ p{
   --neutral-dark-gray-blue: hsl(232, 10%, 55%);
   --neutral-gray-blue: hsl(210, 4%, 67%);
   --neutral-white: hsl(0, 0%, 100%);
-
-  /* 
-  Notes for development
-  font-family: 'Barlow', sans-serif;
-  font-family: 'Fraunces', serif; 
-  background-color: var(--bg-color);
-  - Mobile: 375px
- - Desktop: 1440px
-  */
 }
 
 .basic-img-grid{
