@@ -3,19 +3,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-dark-mod-cyan);
+    background-color: #90cabd;
     height: 300px;
     color: var(--primary-dark-cyan);
 }
 
 .footer-header{
-    
+    font-family: 'Barlow';
+    font-weight: 900;
 }
 
 .footer-nav-items{
     list-style: none;
     display: flex;
     gap: 40px;
+    padding-left: 0;
 }
 
 .footer-nav-item:hover{
@@ -24,10 +26,13 @@
 }
 
 .footer-socials{
+    margin-top: 50px;
+    padding-left: 0;
     list-style: none;
     display: flex;
     gap: 15px;
     font-size: 24px;
+    
 }
 
 .footer-social:hover{

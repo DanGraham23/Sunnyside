@@ -5,7 +5,7 @@ import test3 from '../../assets/images/image-jennie.jpg'
 
 export default function (){
     return (
-        <div className='testimonials-container'>
+        <div id="testimonials" className='testimonials-container'>
             <h3 className='testimonial-header'>CLIENT TESTIMONIALS</h3>
             <div className='testimonials-row'>
                 <div className='testimonial'>

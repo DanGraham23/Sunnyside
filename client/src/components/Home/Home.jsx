@@ -1,12 +1,18 @@
 import './style.css';
 import arrow from '../../assets/images/icon-arrow-down.svg';
-
+import {Link} from 'react-scroll';
 
 export default function Home(){
     return (
-        <div className="home-container">
+        <div id="home" className="home-container">
             <h1 className="moto">WE ARE CREATIVES</h1>
-            <img src={arrow} alt="down-arrow" />
+            <Link
+            to="about"
+            smooth={true}
+            >
+                <img src={arrow} alt="down-arrow" className='arrow'/>
+            </Link>
+            
         </div>
     )
 }

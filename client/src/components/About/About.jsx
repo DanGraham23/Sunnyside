@@ -3,13 +3,13 @@ import './style.css';
 
 export default function About(){
     return (
-        <div className='about-container'>
+        <div id="about" className='about-container'>
             <div className='about-text-container'>
                 <div className='about-descr-container'>
                     <h1 className='about-descr-heading'>Transform your brand</h1>
                     <p className='about-descr'>We are a full-service creative agency specializing in helping brands grow fast. 
                         Engage your clients through compelling visuals that do most of the marketing for you.</p>
-                    <a href="" className='about-descr-a1'>LEARN MORE</a>
+                    <p className='about-descr-a a1'>LEARN MORE</p>
                 </div>
             </div>
             <div className="yellow-egg-img img-container"></div>
@@ -19,7 +19,7 @@ export default function About(){
                     <h1 className='about-descr-heading'>Stand out to the right audience</h1>
                     <p className='about-descr'>Using a collaborative formula of designers, researchers, photographers, videographers,
                         and copywriters, we'll build and extend your brand in digital places.</p>
-                    <a href="" className='about-descr-a2'>LEARN MORE</a>
+                    <p className='about-descr-a a2'>LEARN MORE</p>
                 </div>
             </div>
             

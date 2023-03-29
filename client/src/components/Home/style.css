@@ -3,6 +3,9 @@
     height: 800px;
     background-image: url('../../assets/images/desktop/image-header.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fixed;
     color: var(--neutral-white);
     text-align: center;
 }

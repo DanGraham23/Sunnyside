@@ -56,5 +56,6 @@
 .testimonial-title{
     margin: 0;
     font-family: 'Barlow';
+    font-weight: 600;
     color: var(--neutral-gray-blue);
 }

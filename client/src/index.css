@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap');
 
 body {
   margin: 0;
@@ -36,7 +36,7 @@ p{
 .basic-img-grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 500px;
+  height: 550px;
 }
 
 .milk{
