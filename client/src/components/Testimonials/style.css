@@ -59,3 +59,28 @@
     font-weight: 600;
     color: var(--neutral-gray-blue);
 }
+
+
+@media screen and (max-width: 375px) {
+    .testimonials-container{
+        height: 1200px;
+
+    }
+
+    .testimonials-row{
+        flex-direction: column;
+
+    }
+
+    .testimonial{
+        width: 90%;
+    }
+
+    .testimonial-img{
+        margin-bottom: 20px;
+    }
+
+    .testimonial-descr{
+        margin-bottom: 30px;
+    }
+}

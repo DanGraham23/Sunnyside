@@ -18,3 +18,14 @@
     letter-spacing: 6px;
     margin-bottom: 60px;
 }
+
+@media screen and (max-width: 375px) {
+    .home-container{
+        background-image: url('../../assets/images/mobile/image-header.jpg');
+    }
+    
+    .moto{
+        font-size: 48px;
+        margin-bottom: 80px;
+    }
+}

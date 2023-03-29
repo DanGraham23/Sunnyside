@@ -58,3 +58,11 @@ p{
   background-image: url('./assets/images/desktop/image-gallery-sugarcubes.jpg');
   background-size: cover;
 }
+
+@media screen and (max-width:375px) {
+  .basic-img-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}

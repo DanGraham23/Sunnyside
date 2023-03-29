@@ -2,6 +2,7 @@ import './style.css';
 import {useState} from 'react';
 import logo from '../../assets/images/logo.svg';
 import {Link} from 'react-scroll';
+import hamburger from '../../assets/images/icon-hamburger.svg'
 
 export default function Navbar(){
     const [curSelected, setCurSelected] = useState("");
