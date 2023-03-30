@@ -9,6 +9,7 @@ export default function Home(){
             <Link
             to="about"
             smooth={true}
+            offset={-100}
             >
                 <img src={arrow} alt="down-arrow" className='arrow'/>
             </Link>

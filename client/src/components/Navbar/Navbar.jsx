@@ -6,14 +6,20 @@ import hamburger from '../../assets/images/icon-hamburger.svg'
 
 export default function Navbar(){
     const [curSelected, setCurSelected] = useState("");
+    const [toggleMobileMenu, setToggleMobileMenu] = useState(false);
 
     function handleClick(e){
         setCurSelected(e.target.id);
     }
+
     return (
         <div className='navbar-container'>
             <img src={logo} alt="sunnyside" className='nav-header'/>
-            <ul className='nav-items'>
+            <img src={hamburger} alt="hamburger" className='hamburger' 
+            onClick={() => setToggleMobileMenu(!toggleMobileMenu)}/>
+            { toggleMobileMenu && <div class="triangle"></div>}
+            
+            <ul className={`nav-items-desktop ${toggleMobileMenu ? "nav-items-mobile" : ""}`} >
                 <Link to="home"
                 smooth={true}
                 offset={-100}
