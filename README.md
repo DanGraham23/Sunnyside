@@ -10,4 +10,4 @@
 - Interactive elements such as hover effects and scrolling
 - Use of CSS variables for consistent color scheme
 
-### Note that the site is optimized for width 1440px and mobile width 375px only from the challenge instructions
+* Note that this site is optimized for width 1440px and mobile width 375px, but is responsive to other display sizes
