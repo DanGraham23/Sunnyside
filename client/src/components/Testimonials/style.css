@@ -81,10 +81,7 @@
   }
 
 
-@media screen and (max-width: 375px) {
-    .testimonial-header{
-
-    }
+@media screen and (max-width: 414px) {
     
     .testimonials-container{
         height: 1200px;
@@ -107,6 +104,8 @@
     }
 
     .testimonial-descr{
-        margin-bottom: 30px;
+        margin-bottom: 0px;
+        height: 80px;
     }
+
 }
