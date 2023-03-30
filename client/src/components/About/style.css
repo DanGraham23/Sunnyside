@@ -127,7 +127,18 @@
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
+
+    .about-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        text-align: center;
+    }
+
+    .yellow-egg-img{
+        grid-row-start: 1;
+    }
 
     .image-and-descr-container{
         width: 90%;
@@ -137,6 +148,7 @@
     .about-descr-heading{
         font-size: 26px;
     }
+
 
     .about-descr-container{
         width: 80%;

@@ -71,6 +71,16 @@
     }
   }
 
+
+@media screen and (max-width: 768px) {
+
+    .testimonial-descr{
+        font-size: 14px;
+    }
+
+  }
+
+
 @media screen and (max-width: 375px) {
     .testimonial-header{
 
