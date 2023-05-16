@@ -42,32 +42,36 @@ p{
 .milk{
   background-image: url('./assets/images/desktop/image-gallery-milkbottles.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
 }
 
 .orange{
   background-image: url('./assets/images/desktop/image-gallery-orange.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
 }
 
 .cone{
   background-image: url('./assets/images/desktop/image-gallery-cone.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
 }
 
 .sugar{
   background-image: url('./assets/images/desktop/image-gallery-sugarcubes.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: fixed;
 }
 
 @media screen and (max-width: 768px) {
-  .basic-img-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width:375px) {
   .basic-img-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
